@@ -8,15 +8,24 @@ Check Amazon Rekognition if you are not familiar with this image/video metadata 
 
 # Available Commands:
 
-** coll: ** List collections
-** newcoll: ** Create new collection
-** listfaces: ** list faces in a collection
-** addface: ** add faces to a collection
-** startface: ** start face analysis job
-** resultface: ** get results from a face analysis job
+**coll:** List collections
 
-** startlabel: ** start label detection job of a given video
-** resultlabel: ** get the results from a label detection job
-** starttrack: ** start a tracking job
-** resulttrack ** get the the results from a tracking job
-** q ** exits the CLI
+**newcoll:** Create new collection
+
+**listfaces:** list faces in a collection
+
+**addface:** add faces to a collection
+
+**startface:** start face analysis job
+
+**resultface:** get results from a face analysis job
+
+**startlabel:** start label detection job of a given video
+
+**resultlabel:** get the results from a label detection job
+
+**starttrack:** start a tracking job
+
+**resulttrack** get the the results from a tracking job
+
+**q** exits the CLI
