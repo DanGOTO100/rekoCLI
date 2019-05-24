@@ -41,4 +41,4 @@ List of avaialble commands in the tool. You can always use command help to get n
     
     2)Make sure your instance has a role to allow rekognition and S3 permission 
     
-    3)Make sure you have a bucket with the images, videos and a SNS Topic ARN and its ServiceRole ARN ready, all in the same region. Enjoy!!\n')
+    3)Make sure you have a bucket with the images, videos and a SNS Topic ARN and its ServiceRole ARN ready, all in the same region. Enjoy!
