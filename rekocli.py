@@ -191,7 +191,7 @@ class MyPrompt(Cmd):
         #Automatically upload the csv file to my S3 bucket.
         data=open('faceoutput.csv','rb')
         s3 = boto3.resource('s3')
-        s3.Bucket('rekocli-demo').put_object(Key='faceoutput.csv', Body=data)
+        s3.Bucket('--your-bucket--').put_object(Key='faceoutput.csv', Body=data)
 
     def do_startlabel(self, args):
         """Starts label detecteion analysis of a stored video.  Usage: startlabel S3Bucket videoname SNSTopic ARNRole. """
