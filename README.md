@@ -2,7 +2,7 @@
 RekoCLI is a custom python lightweight CLI sitting on top of Amazon Rekognition CLI.
 It provides with hgigher level of abstraction commands and easier to read output. 
 Facilitates better demos and more insights on the results.
-It leverages "cmd" package to create a nice CLI interface flow.
+It leverages "cmd" package to create a nice CLI interface flow. It also uses the AWS boto3 python library.
 
 This CLI can run on any EC2 instance where AWS CLI lives and any other Linux with AWS CLI
 Check [Amazon Rekognition](https://aws.amazon.com/rekognition/) if you are not familiar with this image/video metadata extraction service.
